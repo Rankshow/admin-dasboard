@@ -1,5 +1,8 @@
 import React from 'react';
 import "./Home.css"
+import Piechart from './Piechart';
+import Line from './LineChart';
+import LineChart from './LineChart';
 
 function Home() {
   return (
@@ -31,6 +34,14 @@ function Home() {
               <p className='fw-bold text-white'>Income</p>
             </div>
           </div>
+      </div>
+      <div className="row">
+        <div className="col-12 col-md-8 p-3">
+           <LineChart />
+        </div>
+        <div className="col-12 col-md-4 p-3">
+           <Piechart />
+        </div>
       </div>
     </div>
   )
