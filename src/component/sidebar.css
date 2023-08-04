@@ -1,0 +1,15 @@
+li:hover{
+  background-color: rgb(37, 37, 145);
+  cursor: pointer;
+  /* width: 50%; */
+}
+.li:hover {
+  background-color: rgb(37, 37, 145);
+  cursor: pointer;
+}
+img {
+  width: 60px !important;
+}
+.active {
+  background-color: rgb(37, 37, 145);
+}
