@@ -12,7 +12,7 @@ function Navbar() {
       <ul className="navbar-nav fw-bold ms-auto">
         <li className="nav-item border rounded mx-auto me-2">
           <a className="nav-link text-white" aria-current="page" href="#">
-            <i className='bi bi-search'>Search</i>
+            <i className='bi bi-search mx-3'>Search</i>
           </a>
         </li>
         <li className="nav-item border rounded mx-auto me-2">
