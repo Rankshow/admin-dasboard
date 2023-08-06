@@ -1,7 +1,7 @@
 import React from 'react';
 import { Chart } from 'chart.js/auto';
 import { Pie } from 'react-chartjs-2';
-// import "./Piechart.css"
+import "./PieChart.css"
 
 const labels = ["Januaru", "February", "March", "April", "May", "June", "July"];
 
@@ -18,7 +18,7 @@ const data = {
 
 const Piechart = () => {
   return (
-    <div className='pie border shadow p-1 mt-3'>
+    <div className='pie border p-1 mt-3'>
       <Pie data={data}></Pie>
     </div>
   )
