@@ -1,13 +1,13 @@
 import React from 'react';
 import "./Home.css"
 import Piechart from './Piechart';
-import Line from './LineChart';
 import LineChart from './LineChart';
+
 
 function Home() {
   return (
     <div className='container-fluid'>
-      <div className="row">
+      <div className="row d-flex justify-content-center">
         <div className="main d-flex m-3 p-4 rounded justify-content-around align-items-center bg-primary col-12 col-sm-6 col-lg-3 border shadow-sm">
             <div className='d-flex'>
               <div>

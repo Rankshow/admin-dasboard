@@ -1,7 +1,7 @@
 import React from 'react';
 import { Chart } from 'chart.js/auto';
 import { Line } from 'react-chartjs-2';
-import "./Piechart.css"
+import "./LineChart.css"
 
 const labels = ["Januaru", "February", "March", "April", "May", "June", "July"];
 
@@ -20,7 +20,7 @@ const data = {
 
 const LineChart = () => {
   return (
-    <div className='pie border shadow p-1 mt-3'>
+    <div className='line border p-1 mt-3'>
     <Line data={data}></Line>
   </div>
   )
