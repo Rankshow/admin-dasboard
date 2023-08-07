@@ -21,7 +21,7 @@ const Sidebar = () => {
        
        {/* +++++++++++ Dashboard +++++++++++++++ */}
         <ul className='nav nav-pill flex-column fs-5'>
-          <Link to="/" className='text-decoration-none'><li className={active === 1 ? 'active nav-item mt-2 p-1' : 'nav-item mt-2 p-1'} onClick={(e) => setActive(1)}><span  className='text-decoration-none text-white'><i className='bi bi-bar-chart me-3 text-warning'>
+          <Link to="/" className='text-decoration-none'><li className={active === 1 ? 'active nav-item mt-2 p-1' : 'nav-item mt-2 p-1'} onClick={(e) => setActive(1)}><span  className='text-decoration-none text-white'><i className='bi bi-grid me-3 text-warning'>
           </i><span>Dashboard</span> </span></li></Link>
 
        {/* +++++++++++ Atm Account +++++++++++++++ */}
