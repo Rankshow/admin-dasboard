@@ -24,7 +24,10 @@ function App() {
         <BrowserRouter>
           <div className='d-flex'>
             {/* condition display and hide the sidebar once it is clicked */}
-            <div className={toggle ? "bar d-none" : "w-auto"} >
+            <div className={toggle ? "d-none" : "w-auto position-fixed"} >
+              <Sidebar />
+            </div>
+            <div className={toggle ? "d-none" : "invisible"} >
               <Sidebar />
             </div>
              <div className="col overflow-auto">
