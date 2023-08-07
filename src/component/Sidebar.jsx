@@ -29,8 +29,8 @@ const Sidebar = () => {
           </i><span>Accounts</span> </span></li></Link>
 
        {/* +++++++++++ Retails +++++++++++++++ */}
-          <Link to="/retail" className='text-decoration-none'><li className={active === 3 ? 'active nav-item mt-2 p-1': 'nav-item mt-2 p-1'} onClick={(e) => setActive(3)}><span  className='text-decoration-none text-white'><i className='bi bi-bag me-3 text-warning'>
-          </i><span>Retail</span></span></li></Link> 
+          <Link to="/finance" className='text-decoration-none'><li className={active === 3 ? 'active nav-item mt-2 p-1': 'nav-item mt-2 p-1'} onClick={(e) => setActive(3)}><span  className='text-decoration-none text-white'><i className='bi bi-currency-dollar me-3 text-warning'>
+          </i><span>Finance</span></span></li></Link> 
 
        {/* +++++++++++ Database +++++++++++++++ */}
           <Link to="/database" className='text-decoration-none'><li className={active === 4 ? 'active nav-item mt-2 p-1': 'nav-item mt-2 p-1'} onClick={(e) => setActive(4)}><span className='te4t-decoration-none text-white'><i className='bi bi-database-gear me-3 text-warning'>
