@@ -1,3 +1,6 @@
 .table-head {
   background-color: purple !important;
 }
+tr:hover{
+  opacity: .7;
+}
