@@ -5,10 +5,10 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Navbar from "./component/Navbar";
 import Home from "./component/Home";
 import Account from "./component/Account";
-import Database from "./component/Database";
-import Help from "./component/Help";
+import Revenue from "./component/Revenue";
 import Profile from "./component/Profile";
 import Finance from "./component/Finance";
+// import Help from "./component/Help";
 
 
 
@@ -36,8 +36,8 @@ function App() {
                     <Route path="/" element={<><Home /></>} />
                     <Route path="/account" element={<Account />} />
                     <Route path="/finance" element={<Finance />} />
-                    <Route path="/database" element={<Database />} />
-                    <Route path="/help" element={<Help />} />
+                    <Route path="/revenue" element={<Revenue />} />
+                    {/* <Route path="/help" element={<Help />} /> */}
                     <Route path="/profile" element={<Profile />} />
                   </Routes>
             </div>

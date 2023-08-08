@@ -33,17 +33,17 @@ const Sidebar = () => {
           </i><span>Finance</span></span></li></Link> 
 
        {/* +++++++++++ Database +++++++++++++++ */}
-          <Link to="/database" className='text-decoration-none'><li className={active === 4 ? 'active nav-item mt-2 p-1': 'nav-item mt-2 p-1'} onClick={(e) => setActive(4)}><span className='te4t-decoration-none text-white'><i className='bi bi-database-gear me-3 text-warning'>
-          </i><span>Database</span> </span></li></Link>
-
+          <Link to="/revenue" className='text-decoration-none'><li className={active === 4 ? 'active nav-item mt-2 p-1': 'nav-item mt-2 p-1'} onClick={(e) => setActive(4)}><span className='te4t-decoration-none text-white'><i className='bi bi-database-gear me-3 text-warning'>
+          </i><span>Revenue</span> </span></li></Link>
+{/* 
            <Link to="/help" className='text-decoration-none'><li className={active === 5 ? 'active nav-item mt-2 p-1': 'nav-item mt-2 p-1'} onClick={(e) => setActive(5)}><span  className='text-decoration-none text-white'><i className='bi bi-gear me-3 text-warning'>
-          </i><span>Help</span></span></li></Link>
+          </i><span>Help</span></span></li></Link> */}
         </ul>
      </div>
            <div>
              <hr />
              <Link to="/profile" className='text-decoration-none'><div className={active === 6 ? 'li nav-item mt-2 fs-5 p-1' : 'li nav-item mt-2 fs-5 p-1'} onClick={(e) => setActive(6)}><span  className='text-decoration-none text-white'><i className='bi bi-person-circle me-3 text-warning'>
-              </i><span>Profile</span></span></div></Link> 
+              </i><span>Profile Feedback</span></span></div></Link> 
           </div>
   </div>
   )
